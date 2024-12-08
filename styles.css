@@ -280,6 +280,7 @@ svg {
 .socials {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.7rem;
   margin: 1rem auto;
 }
@@ -338,6 +339,10 @@ ul h2 {
   .hideOnMobile {
     display: none;
   }
+
+  .left-section p {
+  margin: 0 3rem;
+}
 
   .menu-button {
     display: block;
