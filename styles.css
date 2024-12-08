@@ -12,7 +12,7 @@ body {
 
 #hero {
   height: 100vh;
-  background: url(./img/hero.webp) no-repeat center center / cover;
+  background: url(./img/hero-main.webp) no-repeat center center / cover;
   clip-path: polygon(0px 0px, 100% 0px, 100% 86.17%, -0.8% 92.98%);
   position: relative;
 }
