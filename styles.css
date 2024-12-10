@@ -292,6 +292,8 @@ svg {
   color: grey;
 }
 
+
+
 .socials {
   display: flex;
   flex-direction: column;
@@ -392,6 +394,14 @@ ul h2 {
     margin: 0.2rem auto;
     
   }
+
+  .location:last-child{
+  border-bottom: 1px solid grey;
+}
+
+.socials:last-child{
+  border-bottom: 1px solid grey;
+}
 
   .location ul li a {
     width: 100%;
