@@ -81,7 +81,7 @@ nav li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1rem;
   max-width: 650px;
   margin: 8rem auto 2rem auto;
 }
@@ -93,6 +93,12 @@ svg {
   font-size: 3rem;
   font-weight: bold;
   color: #d3e2f2;
+}
+
+.hero-section h4{
+  color: aqua;
+  font-size: 1.2rem;
+
 }
 
 .hero-section p {
@@ -253,12 +259,14 @@ svg {
 .footer-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
 }
 
 .footer-1 ul li a {
   color: grey;
   text-decoration: none;
   text-align: center;
+  width: 100%;
 }
 
 .footer-1 ul li a:hover {
@@ -273,12 +281,13 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
-  margin: 1rem auto;
+  margin-top: 1rem;
 }
 
 .location h4 {
-  align-self: flex-start;
+  align-items: center;
   font-size: 1.5rem;
   color: grey;
 }
@@ -286,15 +295,17 @@ svg {
 .socials {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 0.7rem;
-  margin: 1rem auto;
+  gap: 0.8rem;
+  margin-top: 1rem;
 }
 
 .socials h4 {
   color: grey;
   font-size: 1.5rem;
-  text-align: center;
+  align-items: center;
+  
 }
 
 .menu-button {
@@ -372,14 +383,14 @@ ul h2 {
 
   .footer-1 {
     grid-template-columns: 1fr;
+    gap: 0.7rem;
   }
 
   .location {
-    padding: 0 3rem;
-    gap: 0.2rem;
+    /* padding: 0 3rem; */
+    gap: 0.5rem;
     margin: 0.2rem auto;
-    align-items: flex-start;
-    justify-content: flex-start;
+    
   }
 
   .location ul li a {
@@ -390,9 +401,9 @@ ul h2 {
     text-align: center;
   }
 
-  footer {
+  /* footer {
     height: 100vh;
-  }
+  } */
 
   .socials {
     gap: 0.2rem;
@@ -416,8 +427,20 @@ ul h2 {
     max-width: 400px;
   }
 
+  .hero-section h2{
+    text-align: center;
+    font-size: 2rem;
+
+  }
+
+  .hero-section h4{
+    text-align: center;
+    font-size: 1rem;
+
+  }
+
   #footer-section {
-    height: 50vh;
+    height: 45vh;
   }
 
   nav ul li a:hover {
