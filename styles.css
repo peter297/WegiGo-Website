@@ -395,17 +395,12 @@ ul h2 {
     
   }
 
-  .location:last-child{
-  border-bottom: 1px solid grey;
-}
-
-.socials:last-child{
-  border-bottom: 1px solid grey;
-}
 
   .location ul li a {
     width: 100%;
   }
+
+  
 
   .location h4 {
     text-align: center;
